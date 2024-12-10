@@ -1,0 +1,11 @@
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .category {
+    text-align: center;
+    font-size: 18px;
+  }
+  
