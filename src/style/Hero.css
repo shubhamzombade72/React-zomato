@@ -1,26 +1,60 @@
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #ffe8e8;
-  }
-  
-  .hero input {
-    padding: 10px;
-    width: 80%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }.hero {
-    text-align: center;
-    padding: 20px;
-    background-color: #f8f9fa;
-  }
-  
-  .hero input {
-    margin-top: 10px;
-    padding: 10px;
-    width: 50%;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  
+
+.navbar {
+  position: absolute; /* Position the navbar inside the carousel */
+  top: 10px; /* Adjust the position for the navbar */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  z-index: 15; /* Ensure it stays on top of the carousel */
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links span {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar-links span:hover {
+  text-decoration: underline;
+}
+
+/* Search bar styling */
+.carousel-search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; /* Ensure it's above the carousel images */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Make the carousel images responsive */
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* Optional: Carousel control button positioning */
+.carousel-control-prev, .carousel-control-next {
+  z-index: 20;
+}
