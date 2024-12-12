@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-    <div className="bg-background p-6 ">
+    <div className="bg-background bacc p-6 ">
     <header className="flex justify-between items-center">
       <div>
         <a href="#" className="text-primary text-2xl font-bold">Get the App</a>
