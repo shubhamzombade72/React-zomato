@@ -1,13 +1,13 @@
-
+import Locations from "./components/Locations";
 import Home from "./components/Home";
-
-import './style/Hero.css'
-import './style/Categories.css'
-import "./style/Home.css"
+import Collections from "./components/Collections";
+import "./style/Home.css";
 function App() {
   return (
     <div className="App">
      <Home/>
+     <Collections/>
+     <Locations/>
     </div>
   );
 }
