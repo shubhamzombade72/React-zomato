@@ -44,13 +44,17 @@ export default function Appinfo() {
         <a href="#" className="flex items-center">
           <img
             alt="Google Play"
-            src="https://openui.fly.dev/openui/150x50.svg?text=Google+Play"
-          />
+            src="https://static.vecteezy.com/system/resources/previews/024/170/871/non_2x/badge-google-play-and-app-store-button-download-free-png.png"
+            height="50"
+            width="150"/>
+           
         </a>
         <a href="#" className="flex items-center">
           <img
             alt="App Store"
-            src="https://openui.fly.dev/openui/150x50.svg?text=App+Store"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcLwBFEP8AZ8tUiJtH1JgUT8l0Sw7z5O19Yg&s"
+             height="50"
+            width="150"
           />
         </a>
       </div>
