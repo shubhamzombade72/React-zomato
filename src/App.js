@@ -2,8 +2,8 @@ import Locations from "./components/Locations";
 import Home from "./components/Home";
 import Collections from "./components/Collections";
 import Appinfo from "./components/Appinfo";
-import Com from "./components/Com"
-import "./style/Home.css";
+import Explore from "./components/Explore";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -11,7 +11,9 @@ function App() {
      <Collections/>
      <Locations/>
      <Appinfo/>
-     <Com/>
+     <Explore/>  
+     <Footer/>  
+
     </div>
   );
 }

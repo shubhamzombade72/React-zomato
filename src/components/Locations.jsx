@@ -48,10 +48,7 @@ const Locations = () => {
       <a href="#" className="text-primary hover:underline"></a>
     </div>
   </div>
-  <div className="mt-6 text-center">
-    <a href="#" className="text-secondary hover:underline">see more</a>
-  </div>
-  
+ 
 </div>
     </div>
   )

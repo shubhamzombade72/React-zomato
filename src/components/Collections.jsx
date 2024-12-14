@@ -1,7 +1,7 @@
 import React from 'react'
 const Collections = () => {
   return (
-    <div className="p-6">
+    <div className="p-6 mt-5">
     <h2 className="text-2xl font-bold mb-4 container">Collections</h2>
     <p className=" mb-6 container">Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on trends</p>
   
