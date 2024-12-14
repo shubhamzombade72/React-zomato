@@ -1,14 +1,13 @@
-import '../style/Home.css';
 
 export default function Appinfo() {
   return (
-    <div className="me-5 heading">
+    <div className="me-5 heading container">
       <h1 >Get the Zomato app</h1>
       <p>
         We will send you a link, open it on your phone to download the app
       </p>
 
-      <div className="flex space-x-4 mb-4">
+      <div className="flex space-x-4 mb-4 position-absolute bottom-50 end-50">
         <label className="flex items-center">
           <input
             type="radio"
