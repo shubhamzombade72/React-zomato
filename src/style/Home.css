@@ -3,23 +3,34 @@
   background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
   width: 100%;
 }
+/* Background Classes */
+.bg-background {
+  background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
 /* Border Color */
 .border-border {
   border-color: var(--border);
   width: 50%;
 }
-.h-32 {
-  height: 12rem;
-  width: 20rem;
+
+/* Grid Layout */
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Add gap between cards */
+  padding: 20px; /* Optional padding around the grid */
 }
-/* Padding and Margin */
-.mt-10 {
-  margin-top: 2.5rem;
-}
-.tols{
-font-size: 50px;
-font-weight: 900;
-}
-.ggg {
-  padding-right: 120px;
+.search-box {
+  width: 100%; /* Set width to 80% */
+  max-width: 600px; /* Optional max-width for larger screens */
+  margin: 20px auto; /* Center the box */
+  padding: 12px; /* Add padding for better aesthetics */
+  border: 1px solid #ccc; /* Optional border styling */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px; /* Adjust font size */
 }
