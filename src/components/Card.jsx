@@ -11,7 +11,7 @@ const Card = ({ image, title, details }) => {
       />
       <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center rounded-lg">
         <div className="text-white text-center">
-          <h3 className="text-lg font-semibold">{title}</h3>
+          <h3 className="text-lg  font-semibold">{title}</h3>
           <p className="text-sm">{details}</p>
         </div>
       </div>

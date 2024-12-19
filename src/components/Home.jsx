@@ -1,7 +1,6 @@
 import React from "react";
 import "../style/Home.css";
-import Data from "./Data.json";
-
+import Data from './Data.json'
 // Card component with hover effects
 const Card = ({ image, title, details }) => {
   return (
@@ -12,7 +11,7 @@ const Card = ({ image, title, details }) => {
         className="h-40 object-cover rounded-lg mb-4"
         style={{ width: "100%" }}
       />
-      <h2 className="text-xl font-bold text-gray-800 mb-2">{title}</h2>
+      <h2 className="text-xl font-bold text-gray fs-4 mb-2">{title}</h2>
       <p className="text-gray-600">{details}</p>
     </div>
   );
